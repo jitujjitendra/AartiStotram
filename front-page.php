@@ -12,7 +12,7 @@ get_header();
 <section class="hero-section">
     <div class="hero-particles"></div>
     <div class="hero-content">
-        <div class="hero-badge"><?php esc_html_e( '�DivinePrayers', 'aartistotram' ); ?></div>
+        <div class="hero-badge"><?php esc_html_e( 'Divine Prayers', 'aartistotram' ); ?></div>
         <h1 class="hero-title"><?php esc_html_e( 'Discover Divine Prayers & Sacred Texts', 'aartistotram' ); ?></h1>
         <p class="hero-subtitle"><?php esc_html_e( 'Explore our collection of Aartis, Stotras, Chalisa, Mantras and more for your daily spiritual practice', 'aartistotram' ); ?></p>
         <form role="search" method="get" class="hero-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -97,8 +97,8 @@ get_header();
             $deities = array(
                 array( 'name' => 'Ganesh', 'hindi' => 'गणेश', 'icon' => '🙏', 'slug' => 'ganesh' ),
                 array( 'name' => 'Shiv', 'hindi' => 'शिव', 'icon' => '🔱', 'slug' => 'shiv' ),
-                array( 'name' => 'Vishnu', 'hindi' => 'विष्णु', 'icon' => '�DivinePrayers', 'slug' => 'vishnu' ),
-                array( 'name' => 'Hanuman', 'hindi' => 'हनुमान', 'icon' => '�DivinePrayers', 'slug' => 'hanuman' ),
+                array( 'name' => 'Vishnu', 'hindi' => 'विष्णु', 'icon' => '🕉️', 'slug' => 'vishnu' ),
+                array( 'name' => 'Hanuman', 'hindi' => 'हनुमान', 'icon' => '🚩', 'slug' => 'hanuman' ),
                 array( 'name' => 'Durga', 'hindi' => 'दुर्गा', 'icon' => '🌺', 'slug' => 'durga' ),
                 array( 'name' => 'Lakshmi', 'hindi' => 'लक्ष्मी', 'icon' => '🪷', 'slug' => 'lakshmi' ),
                 array( 'name' => 'Krishna', 'hindi' => 'कृष्ण', 'icon' => '🦚', 'slug' => 'krishna' ),
