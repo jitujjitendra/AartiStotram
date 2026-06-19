@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" fill="#FFF8F0"/>
+  <circle cx="100" cy="85" r="45" stroke="#E63946" stroke-width="2" fill="none"/>
+  <text x="100" y="95" text-anchor="middle" font-size="32" fill="#E63946" font-family="serif">&#x0950;</text>
+  <text x="100" y="160" text-anchor="middle" font-size="12" fill="#666" font-family="sans-serif">AartiStotram</text>
+</svg>
