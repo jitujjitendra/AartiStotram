@@ -43,7 +43,6 @@
                     'menu_class'     => 'nav-menu',
                     'container'      => false,
                     'fallback_cb'    => 'aartistotram_fallback_menu',
-                    'walker'         => new AartiStotram_Nav_Walker(),
                 ) );
             } else {
                 aartistotram_fallback_menu();
