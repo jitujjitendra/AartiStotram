@@ -73,7 +73,7 @@ get_header();
 
         <?php else : ?>
         <div class="no-results">
-            <div class="no-results-icon">🔍</div>
+            <div class="no-results-icon">&#x1F50D;</div>
             <h2><?php esc_html_e( 'No results found', 'aartistotram' ); ?></h2>
             <p><?php esc_html_e( 'Sorry, we couldn\'t find what you were looking for. Try different keywords.', 'aartistotram' ); ?></p>
             <div class="no-results-suggestions">

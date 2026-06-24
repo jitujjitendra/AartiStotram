@@ -103,7 +103,7 @@ get_header();
             if ( $related ) :
         ?>
         <section class="related-posts">
-            <h2 class="related-title"><?php esc_html_e( 'Related Prayers', 'aartistotram' ); ?> <span class="hindi-text">संबंधित पाठ</span></h2>
+            <h2 class="related-title"><?php esc_html_e( 'Related Prayers', 'aartistotram' ); ?></h2>
             <div class="posts-grid posts-grid-4">
                 <?php foreach ( $related as $post ) : setup_postdata( $post ); ?>
                 <article class="post-card post-card-sm">
